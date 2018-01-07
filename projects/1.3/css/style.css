@@ -1,0 +1,20 @@
+#flexContainer {
+    display: flex;
+    flex-flow: row wrap;
+}
+table {
+    margin-top: 20px;
+}
+table, tr, td, th {
+    border: 1px solid;
+} 
+td, th {
+    padding:10px;
+}
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+#wikiInfo img {
+    width: 600px;
+    margin: 10px;
+}
