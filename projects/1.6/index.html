@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Howler.js example</title>
+    <meta charset="utf-8"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Playing with Howler.js</h1>
+    <p>This example loads, decodes and plays sounds using the HowlerJS library</p>
+    <p>The first 3 are examples from the course. The second one should be labeled laser.</p>
+    <p>The next 3 are from the Howler Github page, however Laser 2 is dead air (wrong timing).</p>
+    <button id="explosion" disabled>BOOM !</button>
+    <button id="basic_explosion" disabled>Basic Explosion</button>
+    <button id="winner" disabled>Winner!</button>
+    <button id="explosion2" disabled>BOOM 2!</button>
+    <button id="laser2" disabled>Laser 2</button>
+    <button id="winner2" disabled>Winner 2!</button>
+    <p>Below is the full audio file these clips come from in an audio element if supported.</p>
+    <p>You can use it to see how the timing works on the clips (sprites).</p>
+    <audio controls>
+        <source src="https://goldfirestudios.com/proj/howlerjs/sounds.mp3" type="audio/mpeg">
+        <source src="https://goldfirestudios.com/proj/howlerjs/sounds.ogg" type="audio/ogg">
+        <p>Your browser does not support the audio element.</p>
+    </audio>
+</body>
+</html>
