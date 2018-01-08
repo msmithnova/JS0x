@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Guess the Number</h1>
+    <p>Guess a number between 0 and and upper limit you choose. Limited to between 10 and 1000.</p>
+    <p>Background of limit input changes between pink and green to indicate bad and good values.</p>
+    <p>Clicking the 'Set Limit' button will only enabled the guess input if the limit input is valid.</p>
+    <p>Pressing 'Enter' on the keyboard in either input will 'click' the corresponding button.</p>
+    <p>
+        <label for="maxnum">Choose an upper limit: </label>
+        <input type="number" name="maxnum" id="maxnum" value="100" min="10" max="1000" autofocus>
+        <button type="button" id="set">Set Limit</button>
+    </p>
+    <p>
+        <label for="numchoice">Choose a number: </label>
+        <span id="numrange">0 to 100</span><br>
+        <input type="number" name="numchoice" id="numchoice" disabled>
+        <button type="button" id="guess" disabled>Guess</button>
+        <span id="feedback"></span>
+    </p>
+    <p>Number of Guesses: <span id="numguess">0</span></p>
+</body>
+</html>
