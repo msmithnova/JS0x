@@ -31,6 +31,7 @@ function startGame() {
     completedWords = 0;
     currentTime = 10;
     messageArea.innerHTML = "";
+    inputArea.innerHTML = "";
     newWord();
 }
 
