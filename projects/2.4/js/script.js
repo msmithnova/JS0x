@@ -30,6 +30,7 @@ function startGame() {
     setLevelText();
     completedWords = 0;
     currentTime = 10;
+    messageArea.innerHTML = "";
     newWord();
 }
 
