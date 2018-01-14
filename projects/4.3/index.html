@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Contact Manager</h1>
+    </header>
+    <main>
+        <section id="contactList">
+            <h2>Contact List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="tableGivenName">Given Name(s)</th>
+                        <th id="tableFamilyName">Family Name(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Placeholder</td>
+                        <td>Placeholder</td>
+                    </tr>
+                    <tr>
+                        <td>Placeholder</td>
+                        <td>Placeholder</td>
+                    </tr>
+                    <tr>
+                        <td>Placeholder</td>
+                        <td>Placeholder</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contactDetails">
+            <h2>Contact Details</h2>
+            <ul>
+                <li>
+                    <span class="detailTitle">Given Name(s): </span>
+                    <span id="detailGivenName" class="detailData">Placeholder</span>
+                </li>
+                <li>
+                        <span class="detailTitle">Family Name(s): </span>
+                        <span id="detailFamilyName" class="detailData">Placeholder</span>
+                    </li>
+                <li>
+                        <span class="detailTitle">Email: </span>
+                        <span id="detailEmail" class="detailData">Placeholder</span>
+                    </li>
+                <li>
+                    <span class="detailTitle">Phone Number: </span>
+                    <span id="detailPhoneNuber" class="detailData">Placeholder</span>
+                </li>
+                <li>
+                    <span class="detailTitle">Additional Information: </span>
+                    <span id="detailAddInfo" class="detailData">Placeholder</span>
+                </li>
+            </ul>
+        </section>
+        <section id="addContact">
+            <h2>Add Contact</h2>
+            <form>
+                <p>
+                    <label for="formGivenName">Given Name(s): </label>
+                    <input type="text" id="formGivenName" placeholder="John" required>
+                </p>
+                <p>
+                    <label for="formFamilyName">Family Name(s): </label>
+                    <input type="text" id="formFamilyName" placeholder="Doe" required>
+                </p>
+                <p>
+                    <label for="forEmail">Email: </label>
+                    <input type="email" id="forEmail" placeholder="john@doe.com" required>
+                </p>
+                <p>
+                    <label for="formPhoneNumber">Phone Number: </label>
+                    <input type="tel" id="formPhoneNumber" placeholder="555-555-5555">
+                </p>
+                <p>
+                    <label for="formAddInfo">Additional Information: </label>
+                    <textarea id="formAddInfo" placeholder="That guy from work! The one with the mohawk and tattoos."></textarea>
+                </p>
+                <p>
+                    <button type="submit">Add Contact</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Michael Smith</p>
+    </footer>
+</body>
+</html>
