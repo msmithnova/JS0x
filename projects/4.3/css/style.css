@@ -27,8 +27,11 @@ td {
     border-collapse: collapse;
     padding: 5px 10px;
 }
-th {
+tbody tr {
     cursor: pointer;
+}
+.rowActive {
+    color: blue;
 }
 tbody tr:nth-child(even) {
     background-color: rgb(225, 198, 166);
