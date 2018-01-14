@@ -1,0 +1,54 @@
+body {
+    font-size: 16px;
+}
+header,
+footer {
+    text-align: center;
+    background-color: bisque;
+    color: brown;
+}
+h2 {
+    background-color: brown;
+    color: bisque;
+    padding: 5px;
+}
+#contactList,
+#contactDetails,
+#addContact {
+    float: left;
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+}
+table,
+th,
+td {
+    border: 1px solid brown;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+th {
+    cursor: pointer;
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(225, 198, 166);
+}
+#contactDetails li {
+    margin-bottom: 5px;
+}
+.detailTitle {
+    font-weight: bold;
+}
+input:invalid {
+    background-color: pink;
+}
+input:valid {
+    background-color: lightgreen;
+}
+textarea {
+    min-height: 100px;
+    width: 95%;
+}
+footer {
+    clear: both;
+}
