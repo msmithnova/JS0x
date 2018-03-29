@@ -1,7 +1,11 @@
 let wordList = ["gloomy", "skull", "reaper", "bones", "skeleton", "dark",
     "dusky", "black", "sepulchral", "desolate", "graveyard", "tombstone",
     "grim", "shadowy", "dreary", "cranium", "scalp", "cenotaph", "death",
-    "terminate", "demise", "extinction", "necrosis", "tomb", "coffin"];
+    "terminate", "demise", "extinction", "necrosis", "tomb", "coffin",
+    "misty", "dingy", "foggy", "overcast", "somber", "murky", "bleak",
+    "deathly", "dismal", "grave", "morbid", "corpse", "cadaver", "carcass",
+    "remains", "derelict", "isolated", "scream", "waste", "ruined", "shrine",
+    "headstone", "mausoleum", "marker", "monolith", "statue", "tablet"];
 let messageList = ["Good work but Death is Inevitable!",
     "I will have your Soul. It's a matter of time.",
     "You think you're good? I'm better!", "You can not escape death!"];
@@ -63,6 +67,7 @@ function drawMain() {
     inputArea = document.createElement("input");
     inputArea.id = "inputArea";
     inputArea.addEventListener("input", checkWord);
+    inputArea.style.fontSize = "24px";
     gameArea.appendChild(inputArea);
     messageArea = document.createElement("p");
     messageArea.id = "messageArea";
